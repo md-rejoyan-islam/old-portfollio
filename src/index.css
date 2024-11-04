@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply max-w-[1350px] mx-auto px-7 md:px-9;
+  }
+
+  #imgFigure:hover img {
+    @apply filter brightness-110 origin-top -translate-x-[14px] -translate-y-[14px] scroll-smooth transition-all ease-linear;
+  }
+  .project-card:hover .project-title a {
+    @apply text-[#54d5bc];
+  }
+}
+
+#imgFigure:hover div {
+  @apply origin-top translate-x-1 translate-y-1 scroll-smooth transition-all   ease-linear;
+}

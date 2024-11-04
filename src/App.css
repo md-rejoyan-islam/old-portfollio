@@ -1,0 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter Variable", sans-serif;
+}
+
+.index-module_type__E-SaG::after {
+  content: "_" !important;
+}
